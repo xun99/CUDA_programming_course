@@ -1,0 +1,4 @@
+[simpleCUFFT] is starting...
+Transforming signal cufftExecC2C
+Launching ComplexPointwiseMulAndScale<<< >>>
+Transforming signal back cufftExecC2C

@@ -1,0 +1,2 @@
+prac1b.cu(52) : getLastCudaError() CUDA error : my_first_kernel execution failed
+ : (9) invalid configuration argument.

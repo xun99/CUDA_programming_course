@@ -1,0 +1,12 @@
+
+Grid dimensions: 512 x 512 x 512
+
+Copy u1 to device: 60.9 (ms) 
+
+10x GPU_laplace3d: 42.3 (ms) 
+
+Copy u2 to host: 181.2 (ms) 
+
+10x Gold_laplace3d: 13330.1 (ms) 
+ 
+rms error = 0.000000 
