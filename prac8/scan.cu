@@ -92,7 +92,7 @@ int main( int argc, const char** argv)
 
   reference = (float*) malloc(mem_size);
   scan_gold( reference, h_data, num_elements);
-
+  
   // allocate device memory input and output arrays
 
   checkCudaErrors( cudaMalloc((void**)&d_idata, mem_size) );
@@ -119,7 +119,7 @@ int main( int argc, const char** argv)
   float err=0.0;
   for (int i = 0; i < num_elements; i++) {
     err += (h_data[i] - reference[i])*(h_data[i] - reference[i]);
-//    printf(" %f %f \n",h_data[i], reference[i]);
+    printf(" %f %f \n",h_data[i], reference[i]);
   }
   printf("rms scan error  = %f\n",sqrt(err/num_elements));
 

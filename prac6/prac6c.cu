@@ -33,7 +33,6 @@ __global__ void my_first_kernel(float *x)
   x[tid] = sum;
 }
 
-
 //
 // CUDA routine to be called by main code
 //
